@@ -13,3 +13,7 @@ Steps
 * Create a PostgereSQL database named `quotesProject`
 * Enter quotes-server and run `npm install` and `npm run seed`
 * Now start the server `npm start`
+
+Note:
+
+This request to another microservice is made from browser which creates CORS error. This is dealt in the backend server.
