@@ -9,6 +9,7 @@ const getQuoteFlag=(quote)=>({type:FLAG,quote})
 //Thunks
 export const quoteAndFlagThunk = ()=>async dispatch => {
   try {
+    //creates CORS error since the request is sent from Browser
     const {data} = await Axios.get('http://localhost:5001/api/quote')
     dispatch(getQuoteFlag(data))
   } catch (error) {
