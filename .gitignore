@@ -1,0 +1,5 @@
+quotes-ui/Public/bundle.js
+quotes-ui/Public/bundle.js.map
+quotes-ui/node_modules
+quotes-server/node_modules
+.DS_Store
